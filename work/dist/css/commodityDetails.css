@@ -1,0 +1,664 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, nav section #logo #before, nav section #logo #later, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("iconfont.eot");
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff2") format("woff2"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg"); }
+
+#sidebar {
+  width: 85px;
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 540px;
+  right: 0px;
+  z-index: 5; }
+  #sidebar aside {
+    height: 100px;
+    width: 100%;
+    background: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px; }
+    #sidebar aside a {
+      color: black;
+      text-decoration: none; }
+    #sidebar aside:hover {
+      background: #aaa9ae; }
+    #sidebar aside #return {
+      display: none; }
+
+#headerbox {
+  width: 1920px;
+  height: 50px;
+  background: black; }
+  #headerbox header {
+    width: 1820px;
+    height: 50px;
+    margin: 0 auto; }
+    #headerbox header #left {
+      float: left;
+      width: 600px;
+      height: 50px; }
+      #headerbox header #left li {
+        float: left;
+        list-style: none;
+        color: white;
+        font-size: 20px;
+        margin-right: 50px;
+        text-align: center;
+        line-height: 50px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        #headerbox header #left li:hover {
+          color: gray; }
+    #headerbox header #right {
+      float: right;
+      width: 440px;
+      height: 50px; }
+      #headerbox header #right li {
+        float: left;
+        list-style: none;
+        color: white;
+        font-size: 20px;
+        margin-right: 40px;
+        text-align: center;
+        line-height: 50px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        #headerbox header #right li:hover {
+          color: gray; }
+        #headerbox header #right li:nth-of-type(4):hover {
+          color: white; }
+        #headerbox header #right li:nth-of-type(1):hover + #code {
+          display: block;
+          z-index: 3; }
+      #headerbox header #right #code {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        left: 1390px;
+        top: 55px;
+        display: none; }
+        #headerbox header #right #code img, #headerbox header #right #code nav section #logo #before, nav section #logo #headerbox header #right #code #before, #headerbox header #right #code nav section #logo #later, nav section #logo #headerbox header #right #code #later {
+          width: 150px;
+          height: 150px; }
+
+nav {
+  height: 93px;
+  width: 1920px;
+  background: #f7f7f7; }
+  nav section {
+    width: 1700px;
+    height: 100%;
+    margin: 0 auto; }
+    nav section #logo {
+      float: left;
+      margin-top: 20px;
+      width: 150px;
+      height: 41px; }
+      nav section #logo img, nav section #logo #before, nav section #logo #later {
+        height: 100%;
+        width: 150px;
+        cursor: pointer; }
+      nav section #logo #before {
+        display: block; }
+      nav section #logo #later {
+        display: none; }
+      nav section #logo:hover #before {
+        display: none; }
+      nav section #logo:hover #later {
+        display: block; }
+    nav section ul {
+      width: 1200px;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      margin-left: 100px;
+      float: left; }
+      nav section ul li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        cursor: pointer; }
+        nav section ul li:hover {
+          color: #5278f4; }
+        nav section ul li:nth-of-type(9) {
+          color: gray; }
+          nav section ul li:nth-of-type(9):hover {
+            color: gray; }
+    nav section #seach {
+      width: 150px;
+      height: 100%;
+      margin-left: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      float: left; }
+      nav section #seach img, nav section #seach #logo #before, nav section #logo #seach #before, nav section #seach #logo #later, nav section #logo #seach #later {
+        height: 26px;
+        width: 26px;
+        cursor: pointer; }
+      nav section #seach #esc {
+        display: none;
+        margin-left: 10px;
+        height: 26px;
+        width: 26px; }
+
+#phones_box {
+  position: absolute;
+  top: 143px;
+  height: 415px;
+  display: none;
+  background: #5278f4;
+  z-index: 9999; }
+  #phones_box #phones {
+    width: 1920px;
+    height: 415px;
+    background: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    #phones_box #phones aside {
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center; }
+      #phones_box #phones aside span {
+        font-size: 25px; }
+    #phones_box #phones #contrast {
+      height: 180px;
+      width: 284px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around; }
+      #phones_box #phones #contrast section {
+        cursor: pointer;
+        background: #f1f1f1;
+        height: 80px;
+        width: 284px;
+        border-radius: 20px;
+        color: black;
+        font-size: 25px;
+        line-height: 80px;
+        text-align: center; }
+        #phones_box #phones #contrast section:hover {
+          background: blue;
+          color: white; }
+
+#main_box {
+  width: 1920px;
+  height: 3300px;
+  background: white;
+  position: absolute; }
+  #main_box main {
+    width: 1580px;
+    height: 80%;
+    margin: 42px auto;
+    background: white; }
+    #main_box main #main_left {
+      width: 647px;
+      height: 872px;
+      position: sticky;
+      top: 0; }
+      #main_box main #main_left #leftTop {
+        width: 557px;
+        height: 566px;
+        background: url("https://shopstatic.vivo.com.cn/vivoshop/commodity/30/10005630_1596164288266_1080x1080.png") no-repeat;
+        background-position: 20px 0px 0px 20px;
+        background-size: 100% 100%;
+        position: relative; }
+        #main_box main #main_left #leftTop img, #main_box main #main_left #leftTop nav section #logo #before, nav section #logo #main_box main #main_left #leftTop #before, #main_box main #main_left #leftTop nav section #logo #later, nav section #logo #main_box main #main_left #leftTop #later {
+          width: 120px;
+          height: 120px;
+          position: absolute;
+          left: 50px;
+          top: 10px; }
+        #main_box main #main_left #leftTop #mask {
+          width: 30px;
+          height: 30px;
+          background: grey;
+          opacity: 0.3;
+          position: absolute;
+          display: none; }
+      #main_box main #main_left ul {
+        width: 457px;
+        height: 98px;
+        margin-top: 151px;
+        margin-left: 50px;
+        background: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        #main_box main #main_left ul li {
+          height: 100%;
+          width: 100px; }
+          #main_box main #main_left ul li img, #main_box main #main_left ul li nav section #logo #before, nav section #logo #main_box main #main_left ul li #before, #main_box main #main_left ul li nav section #logo #later, nav section #logo #main_box main #main_left ul li #later {
+            height: 100%;
+            width: 100%; }
+    #main_box main #main_center {
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      left: 800px;
+      top: 42px;
+      overflow: hidden;
+      z-index: 2;
+      border: 1px solid gray;
+      display: none; }
+      #main_box main #main_center img, #main_box main #main_center nav section #logo #before, nav section #logo #main_box main #main_center #before, #main_box main #main_center nav section #logo #later, nav section #logo #main_box main #main_center #later {
+        width: 1000px;
+        height: 1000px;
+        position: absolute;
+        left: 0px;
+        top: 0px; }
+    #main_box main #main_right {
+      width: 716px;
+      height: 1000px;
+      position: absolute;
+      left: 1000px;
+      top: 90px;
+      background: white; }
+      #main_box main #main_right #right_one {
+        width: 100%;
+        height: 265px;
+        border-bottom: gray 1px solid; }
+        #main_box main #main_right #right_one h1 {
+          font-size: 50px;
+          height: 120px; }
+        #main_box main #main_right #right_one p {
+          font-size: 20px; }
+          #main_box main #main_right #right_one p .red {
+            color: red; }
+      #main_box main #main_right #right_two {
+        width: 100%;
+        height: 170px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: gray 1px solid; }
+        #main_box main #main_right #right_two #price {
+          width: 318px;
+          color: red;
+          font-size: 44px;
+          text-align: center;
+          line-height: 100%;
+          border-right: gray 1px solid; }
+        #main_box main #main_right #right_two #integral {
+          width: 46px;
+          height: 32px;
+          background: red;
+          color: white;
+          font-size: 17px;
+          text-align: center;
+          line-height: 32px; }
+        #main_box main #main_right #right_two #conditions {
+          font-size: 32px;
+          margin-left: 20px; }
+      #main_box main #main_right #right_three {
+        width: 100%;
+        height: 100px; }
+        #main_box main #main_right #right_three ul {
+          height: 100%;
+          width: 425px; }
+          #main_box main #main_right #right_three ul li {
+            float: left;
+            height: 100px;
+            font-size: 20px;
+            line-height: 100px; }
+            #main_box main #main_right #right_three ul li .iconfont {
+              font-family: "iconfont" !important;
+              font-size: 16px;
+              font-style: normal;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale; }
+            #main_box main #main_right #right_three ul li span {
+              color: red;
+              font-size: 22px; }
+            #main_box main #main_right #right_three ul li:nth-of-type(2) {
+              margin-left: 20px; }
+            #main_box main #main_right #right_three ul li:nth-of-type(3) {
+              margin-left: 17px; }
+      #main_box main #main_right #right_four {
+        width: 100%;
+        height: 2280px;
+        background: white; }
+        #main_box main #main_right #right_four input[type='radio'] {
+          display: none; }
+        #main_box main #main_right #right_four input[type='radio'] + span {
+          display: inline-block;
+          background: white;
+          height: 77px;
+          width: 330px;
+          font-size: 20px;
+          text-align: center;
+          line-height: 77px;
+          border: 1px solid gray;
+          border-radius: 10px;
+          margin-top: 20px; }
+        #main_box main #main_right #right_four input[type='radio']:checked + span {
+          border: red 1px solid;
+          color: red; }
+        #main_box main #main_right #right_four h5 {
+          width: 150px;
+          font-size: 20px; }
+        #main_box main #main_right #right_four #versions {
+          width: 100%;
+          height: 155px;
+          margin-top: 63px; }
+        #main_box main #main_right #right_four #colors {
+          width: 100%;
+          height: 234px; }
+        #main_box main #main_right #right_four #setMeal {
+          height: 385px;
+          width: 100%; }
+        #main_box main #main_right #right_four #serve {
+          height: 336px;
+          width: 100%; }
+          #main_box main #main_right #right_four #serve input[type='checkbox'] {
+            margin-top: 10px;
+            margin-left: 30px; }
+        #main_box main #main_right #right_four #amount {
+          width: 100%;
+          height: 135px;
+          position: relative; }
+          #main_box main #main_right #right_four #amount #choice {
+            margin-left: 20px;
+            margin-top: 10px;
+            width: 280px;
+            height: 83px;
+            border: 1px solid black;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between; }
+            #main_box main #main_right #right_four #amount #choice button {
+              width: 85px;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background: white;
+              border: none; }
+            #main_box main #main_right #right_four #amount #choice #show {
+              width: 100px;
+              border-right: 1px solid black;
+              border-left: 1px solid black;
+              text-align: center;
+              line-height: 83px; }
+          #main_box main #main_right #right_four #amount span {
+            position: absolute;
+            left: 320px;
+            top: 65px;
+            color: gray; }
+        #main_box main #main_right #right_four #payment {
+          width: 100%;
+          height: 420px; }
+        #main_box main #main_right #right_four #ultimately {
+          width: 100%;
+          height: 50px; }
+          #main_box main #main_right #right_four #ultimately p {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center; }
+            #main_box main #main_right #right_four #ultimately p .red {
+              color: red;
+              font-size: 40px;
+              width: 150px;
+              border-right: 1px solid gray;
+              padding-right: 10px; }
+            #main_box main #main_right #right_four #ultimately p #ult_right {
+              font-size: 15px;
+              width: 580px;
+              height: 50px;
+              line-height: 50px;
+              margin-left: 10px; }
+        #main_box main #main_right #right_four #end {
+          height: 285px;
+          width: 100%;
+          display: flex;
+          align-items: center; }
+          #main_box main #main_right #right_four #end #end_center {
+            width: 511px;
+            height: 66px;
+            display: flex;
+            justify-content: space-between; }
+            #main_box main #main_right #right_four #end #end_center aside {
+              width: 235px;
+              height: 66px;
+              border: 1px black solid;
+              border-radius: 35px;
+              text-align: center;
+              line-height: 66px;
+              font-size: 20px;
+              color: white; }
+              #main_box main #main_right #right_four #end #end_center aside:nth-of-type(1) {
+                background: black; }
+              #main_box main #main_right #right_four #end #end_center aside:nth-of-type(2) {
+                background: crimson; }
+
+#center_box {
+  width: 1920px;
+  height: 490px;
+  background: white;
+  padding-top: 30px;
+  position: absolute;
+  top: 2800px; }
+  #center_box #center {
+    margin: 0 auto;
+    width: 1587px;
+    height: 460px;
+    background: white; }
+    #center_box #center #center_top {
+      width: 370px;
+      height: 50px; }
+      #center_box #center #center_top ul {
+        width: 100%;
+        height: 50px; }
+        #center_box #center #center_top ul li {
+          float: left;
+          margin-left: 30px;
+          padding-bottom: 10px;
+          text-align: center;
+          line-height: 45px;
+          height: 45px; }
+          #center_box #center #center_top ul li:hover {
+            border-bottom: 1px solid black; }
+    #center_box #center #center_bottom {
+      width: 100%;
+      height: 390px;
+      background: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 30px; }
+      #center_box #center #center_bottom #bottom_left {
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        border-radius: 50%;
+        cursor: pointer; }
+      #center_box #center #center_bottom #bottom_center {
+        width: 1380px;
+        height: 390px;
+        display: flex;
+        cursor: pointer;
+        justify-content: space-between; }
+        #center_box #center #center_bottom #bottom_center .center_things {
+          background: white;
+          height: 95%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 0px 10px 0px 10px;
+          border: 1px solid gray; }
+          #center_box #center #center_bottom #bottom_center .center_things img, #center_box #center #center_bottom #bottom_center .center_things nav section #logo #before, nav section #logo #center_box #center #center_bottom #bottom_center .center_things #before, #center_box #center #center_bottom #bottom_center .center_things nav section #logo #later, nav section #logo #center_box #center #center_bottom #bottom_center .center_things #later {
+            margin-top: 37px;
+            width: 50%;
+            height: 200px; }
+          #center_box #center #center_bottom #bottom_center .center_things h3 {
+            margin-top: 60px;
+            font-size: 20px; }
+          #center_box #center #center_bottom #bottom_center .center_things .price {
+            color: red;
+            text-align: center;
+            font-size: 20px; }
+          #center_box #center #center_bottom #bottom_center .center_things:hover {
+            box-shadow: 0px 5px 5px gray; }
+      #center_box #center #center_bottom #bottom_right {
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        border-radius: 50%;
+        cursor: pointer; }
+
+#bottom_box {
+  width: 1920px;
+  height: 1500px;
+  background: white;
+  position: absolute;
+  top: 3300px; }
+  #bottom_box #bottom_ul {
+    width: 1970px;
+    height: 110px;
+    background: white;
+    position: sticky;
+    top: 0px; }
+    #bottom_box #bottom_ul ul {
+      margin-left: 100px;
+      height: 100%;
+      width: 780px;
+      display: flex;
+      justify-content: space-between;
+      background: white;
+      float: left; }
+      #bottom_box #bottom_ul ul li {
+        font-size: 20px;
+        height: 100%;
+        display: flex;
+        color: gray;
+        justify-content: center;
+        align-items: center; }
+        #bottom_box #bottom_ul ul li:hover {
+          color: black; }
+    #bottom_box #bottom_ul #message {
+      width: 750px;
+      height: 100%;
+      background: white;
+      float: left;
+      display: none; }
+      #bottom_box #bottom_ul #message img, #bottom_box #bottom_ul #message nav section #logo #before, nav section #logo #bottom_box #bottom_ul #message #before, #bottom_box #bottom_ul #message nav section #logo #later, nav section #logo #bottom_box #bottom_ul #message #later {
+        width: 50px;
+        height: 50px;
+        margin-left: 80px;
+        margin-top: 25px;
+        float: left; }
+      #bottom_box #bottom_ul #message #message_center {
+        float: left;
+        width: 350px;
+        height: 70px;
+        margin-left: 50px;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        #bottom_box #bottom_ul #message #message_center #message_top {
+          display: flex;
+          height: 35px;
+          width: 100%; }
+          #bottom_box #bottom_ul #message #message_center #message_top span {
+            font-size: 10px;
+            line-height: 15px; }
+            #bottom_box #bottom_ul #message #message_center #message_top span:nth-of-type(1) {
+              color: red; }
+        #bottom_box #bottom_ul #message #message_center #message_bottom {
+          display: flex;
+          justify-content: space-between;
+          font-size: 10px;
+          width: 100%;
+          height: 35px; }
+      #bottom_box #bottom_ul #message #message_end {
+        height: 70px;
+        width: 200px;
+        margin-top: 25px;
+        float: left; }
+        #bottom_box #bottom_ul #message #message_end #sure {
+          width: 150px;
+          height: 60px;
+          font-size: 20px;
+          color: white;
+          background: black;
+          border-radius: 10px;
+          line-height: 60px;
+          text-align: center; }
+  #bottom_box #bottom_img {
+    width: 1770px;
+    background: grey; }
+    #bottom_box #bottom_img p {
+      width: 100%; }
+      #bottom_box #bottom_img p img, #bottom_box #bottom_img p nav section #logo #before, nav section #logo #bottom_box #bottom_img p #before, #bottom_box #bottom_img p nav section #logo #later, nav section #logo #bottom_box #bottom_img p #later {
+        width: 100%; }

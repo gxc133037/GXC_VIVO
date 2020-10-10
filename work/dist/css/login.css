@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#main_box {
+  width: 1940px;
+  height: 1000px;
+  background: url("https://usrsyswsdl.vivo.com.cn/usermng/1597668237695.jpg") no-repeat;
+  background-size: 100% 100%;
+  position: relative; }
+  #main_box main {
+    width: 530px;
+    height: 790px;
+    position: absolute;
+    background: white;
+    left: 1170px;
+    top: 90px; }
+    #main_box main #ID {
+      width: 530px;
+      height: 770px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      #main_box main #ID img {
+        width: 206px;
+        height: 60px;
+        margin-top: 37px; }
+      #main_box main #ID h1 {
+        font-size: 25px;
+        margin-top: 20px; }
+      #main_box main #ID #way {
+        width: 100%;
+        height: 20px;
+        margin-top: 20px; }
+        #main_box main #ID #way #note {
+          width: 124px;
+          height: 100%;
+          font-size: 15px;
+          text-decoration: none;
+          color: #456fff;
+          margin-left: 70%; }
+      #main_box main #ID #aside_phone {
+        width: 450px;
+        height: 60px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        border: 1px solid black; }
+        #main_box main #ID #aside_phone select {
+          width: 104px;
+          height: 56px;
+          float: left;
+          margin-top: -4px;
+          border: none;
+          outline: none; }
+        #main_box main #ID #aside_phone input[type="number"] {
+          width: 346px;
+          height: 56px;
+          float: left;
+          border: none;
+          font-size: 20px; }
+      #main_box main #ID #aside_password {
+        width: 450px;
+        height: 60px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        border: 1px solid black; }
+        #main_box main #ID #aside_password #pwd {
+          width: 346px;
+          height: 58px;
+          float: left;
+          border: none;
+          font-size: 20px;
+          outline: none; }
+        #main_box main #ID #aside_password img {
+          width: 30px;
+          height: 20px;
+          margin-top: -1px;
+          margin-left: 50px; }
+      #main_box main #ID #aside_email {
+        width: 451px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px; }
+        #main_box main #ID #aside_email #email_user {
+          width: 300px;
+          height: 100%;
+          font-size: 15px;
+          text-decoration: none;
+          color: #456fff; }
+        #main_box main #ID #aside_email input[type='checkbox'] {
+          height: 28px;
+          width: 160px; }
+      #main_box main #ID .login {
+        margin-top: 25px;
+        width: 451px;
+        height: 60px;
+        background: #446fff;
+        color: white;
+        border: none;
+        font-size: 20px;
+        outline: none; }
+      #main_box main #ID .register {
+        margin-top: 25px;
+        width: 451px;
+        height: 60px;
+        background: white;
+        color: black;
+        border: none;
+        font-size: 20px;
+        outline: none;
+        border: 1px solid black; }
+      #main_box main #ID #aside_forget {
+        width: 100%;
+        height: 22px;
+        text-align: center;
+        margin-top: 20px; }
+        #main_box main #ID #aside_forget #forget {
+          width: 72px;
+          height: 100%;
+          font-size: 15px;
+          color: gray;
+          text-decoration: none; }
+      #main_box main #ID #aside_bottom {
+        width: 451px;
+        height: 53px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-top: 50px; }
+        #main_box main #ID #aside_bottom #bottom_top {
+          width: 100%;
+          height: 20px;
+          text-align: center; }
+          #main_box main #ID #aside_bottom #bottom_top #otherWay {
+            color: gray;
+            font-size: 15px; }
+        #main_box main #ID #aside_bottom #bottom_bottom {
+          width: 160px;
+          height: 33px;
+          display: flex;
+          margin-left: 140px;
+          justify-content: space-between;
+          align-items: center; }
+          #main_box main #ID #aside_bottom #bottom_bottom .other {
+            height: 100%;
+            width: 36px;
+            border-radius: 50%;
+            cursor: pointer; }
+            #main_box main #ID #aside_bottom #bottom_bottom .other img {
+              width: 100%;
+              height: 100%; }
+  #main_box #logo {
+    width: 181px;
+    height: 66px;
+    background: #456fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 504px; }
+    #main_box #logo img {
+      width: 66px;
+      width: 181px; }

@@ -1,0 +1,37 @@
+[{
+    "spuId": 10005651,
+    "name": "iQOO 5 Pro",
+    "link": "https://shop.vivo.com.cn/product/10005651?skuId=118697",
+    "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/51/10005651_1597738151069_250x250.jpg",
+    "brief": "BMW定制，高通骁龙865，120W超快闪充，120Hz超视感曲面屏，全竞速核芯，带来职业级电竞体验。",
+    "promotion": "现货开售享：①12期免息；②半年延保；③赠XE710 Type-C耳机；④高等级会员加赠网易耳机",
+    "price": "5498",
+    "marketPrice": "5498",
+    "label": null,
+    "skuId": 118697,
+    "actDto": null
+}, {
+    "spuId": 10005648,
+    "name": "iQOO 5",
+    "link": "https://shop.vivo.com.cn/product/10005648?skuId=118704",
+    "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/48/10005648_1597738187172_250x250.jpg",
+    "brief": "120Hz 超视感柔性屏，骁龙865+LPDDR5+UFS3.1超劲核芯，KPL官方比赛用机，超大底变焦三摄。",
+    "promotion": "新品上市9月29日享：①赠XE710 Type-C耳机；②12期免息；③高等级会员加赠半年延保",
+    "price": "4298",
+    "marketPrice": "4298",
+    "label": null,
+    "skuId": 118704,
+    "actDto": null
+}, {
+    "spuId": 10005601,
+    "name": "iQOO U1",
+    "link": "https://shop.vivo.com.cn/product/10005601?skuId=118482",
+    "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/01/10005601_1594693186074_250x250.jpg",
+    "brief": "高通骁龙 720G；闪存+快速读取；4500mAh大电池,18W闪充超强续航",
+    "promotion": "①赠XE710耳机；②高等级会员加赠半年延保；③赠90元组合配件券",
+    "price": "1598",
+    "marketPrice": "1598",
+    "label": null,
+    "skuId": 118482,
+    "actDto": null
+}]

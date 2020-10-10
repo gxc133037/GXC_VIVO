@@ -1,0 +1,532 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, nav section #logo #before, nav section #logo #later, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#sidebar {
+  width: 85px;
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 540px;
+  right: 0px;
+  z-index: 5; }
+  #sidebar aside {
+    height: 100px;
+    width: 100%;
+    background: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px; }
+    #sidebar aside a {
+      color: black;
+      text-decoration: none; }
+    #sidebar aside:hover {
+      background: #aaa9ae; }
+    #sidebar aside #return {
+      display: none; }
+
+#headerbox {
+  width: 1920px;
+  height: 50px;
+  background: black; }
+  #headerbox header {
+    width: 1820px;
+    height: 50px;
+    margin: 0 auto; }
+    #headerbox header #left {
+      float: left;
+      width: 600px;
+      height: 50px; }
+      #headerbox header #left li {
+        float: left;
+        list-style: none;
+        color: white;
+        font-size: 20px;
+        margin-right: 50px;
+        text-align: center;
+        line-height: 50px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        #headerbox header #left li:hover {
+          color: gray; }
+    #headerbox header #right {
+      float: right;
+      width: 440px;
+      height: 50px; }
+      #headerbox header #right li {
+        float: left;
+        list-style: none;
+        color: white;
+        font-size: 20px;
+        margin-right: 40px;
+        text-align: center;
+        line-height: 50px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        #headerbox header #right li:hover {
+          color: gray; }
+        #headerbox header #right li:nth-of-type(4):hover {
+          color: white; }
+        #headerbox header #right li:nth-of-type(1):hover + #code {
+          display: block;
+          z-index: 3; }
+      #headerbox header #right #code {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        left: 1390px;
+        top: 55px;
+        display: none; }
+        #headerbox header #right #code img, #headerbox header #right #code nav section #logo #before, nav section #logo #headerbox header #right #code #before, #headerbox header #right #code nav section #logo #later, nav section #logo #headerbox header #right #code #later {
+          width: 150px;
+          height: 150px; }
+
+nav {
+  height: 93px;
+  width: 1920px;
+  background: #f7f7f7; }
+  nav section {
+    width: 1700px;
+    height: 100%;
+    margin: 0 auto; }
+    nav section #logo {
+      float: left;
+      margin-top: 20px;
+      width: 150px;
+      height: 41px; }
+      nav section #logo img, nav section #logo #before, nav section #logo #later {
+        height: 100%;
+        width: 150px;
+        cursor: pointer; }
+      nav section #logo #before {
+        display: block; }
+      nav section #logo #later {
+        display: none; }
+      nav section #logo:hover #before {
+        display: none; }
+      nav section #logo:hover #later {
+        display: block; }
+    nav section ul {
+      width: 1200px;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      margin-left: 100px;
+      float: left; }
+      nav section ul li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        cursor: pointer; }
+        nav section ul li:hover {
+          color: #5278f4; }
+        nav section ul li:nth-of-type(9) {
+          color: gray; }
+          nav section ul li:nth-of-type(9):hover {
+            color: gray; }
+    nav section #seach {
+      width: 150px;
+      height: 100%;
+      margin-left: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      float: left; }
+      nav section #seach img, nav section #seach #logo #before, nav section #logo #seach #before, nav section #seach #logo #later, nav section #logo #seach #later {
+        height: 26px;
+        width: 26px;
+        cursor: pointer; }
+      nav section #seach #esc {
+        display: none;
+        margin-left: 10px;
+        height: 26px;
+        width: 26px; }
+
+#phones_box {
+  position: absolute;
+  top: 143px;
+  height: 415px;
+  display: none;
+  background: #5278f4;
+  z-index: 9999; }
+  #phones_box #phones {
+    width: 1920px;
+    height: 415px;
+    background: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    #phones_box #phones aside {
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center; }
+      #phones_box #phones aside span {
+        font-size: 25px; }
+    #phones_box #phones #contrast {
+      height: 180px;
+      width: 284px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around; }
+      #phones_box #phones #contrast section {
+        cursor: pointer;
+        background: #f1f1f1;
+        height: 80px;
+        width: 284px;
+        border-radius: 20px;
+        color: black;
+        font-size: 25px;
+        line-height: 80px;
+        text-align: center; }
+        #phones_box #phones #contrast section:hover {
+          background: blue;
+          color: white; }
+
+#main_box {
+  width: 1920px;
+  height: 1000px;
+  background: white; }
+  #main_box main {
+    width: 1656px;
+    height: 583px;
+    background: #dfdfdf;
+    margin: 0 auto; }
+    #main_box main #main_top {
+      height: 100px;
+      width: 100%;
+      background: white;
+      text-align: center;
+      position: relative;
+      line-height: 100px; }
+      #main_box main #main_top h1 {
+        font-size: 25px; }
+      #main_box main #main_top span {
+        width: 100px;
+        height: 20px;
+        font-size: 15px;
+        position: absolute;
+        left: 90%;
+        top: 0px; }
+    #main_box main #main_center {
+      height: 300px;
+      width: 100%;
+      margin-top: 15px;
+      background: white; }
+      #main_box main #main_center #center_top {
+        width: 100%;
+        height: 90px;
+        border-bottom: 1px solid gray; }
+        #main_box main #main_center #center_top ul {
+          width: 90%;
+          height: 100%;
+          display: flex;
+          justify-content: space-between; }
+          #main_box main #main_center #center_top ul li {
+            height: 90px;
+            text-align: center;
+            line-height: 90px; }
+            #main_box main #main_center #center_top ul li:nth-of-type(2) {
+              margin-left: 80px; }
+      #main_box main #main_center #center_center {
+        width: 1656px;
+        height: 218px; }
+        #main_box main #main_center #center_center ul {
+          width: 100%;
+          height: 218px; }
+          #main_box main #main_center #center_center ul li {
+            height: 218px;
+            display: flex;
+            align-items: center;
+            line-height: 218px;
+            float: left; }
+            #main_box main #main_center #center_center ul li:nth-of-type(2) {
+              width: 488px;
+              display: flex;
+              margin-left: 80px;
+              align-items: center; }
+            #main_box main #main_center #center_center ul li img, #main_box main #main_center #center_center ul li nav section #logo #before, nav section #logo #main_box main #main_center #center_center ul li #before, #main_box main #main_center #center_center ul li nav section #logo #later, nav section #logo #main_box main #main_center #center_center ul li #later {
+              width: 140px;
+              height: 140px;
+              float: left; }
+            #main_box main #main_center #center_center ul li #details {
+              float: left;
+              height: 218px;
+              width: 200px;
+              line-height: 218px;
+              font-size: 10px; }
+            #main_box main #main_center #center_center ul li #amount {
+              width: 140px;
+              height: 45px;
+              display: flex;
+              justify-content: space-between;
+              margin-left: 50px;
+              border: 1px solid black; }
+              #main_box main #main_center #center_center ul li #amount button {
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 15px;
+                width: 50px; }
+              #main_box main #main_center #center_center ul li #amount #show {
+                height: 100%;
+                width: 53px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 15px; }
+            #main_box main #main_center #center_center ul li #operation {
+              width: 130px;
+              height: 100%; }
+              #main_box main #main_center #center_center ul li #operation #operations {
+                width: 130px;
+                height: 100px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center; }
+            #main_box main #main_center #center_center ul li:nth-of-type(3) {
+              margin-left: -100px; }
+            #main_box main #main_center #center_center ul li:nth-of-type(5) {
+              margin-left: 90px; }
+            #main_box main #main_center #center_center ul li:nth-of-type(6) {
+              margin-left: 130px; }
+            #main_box main #main_center #center_center ul li:nth-of-type(7) {
+              margin-left: 150px; }
+            #main_box main #main_center #center_center ul li:nth-of-type(8) {
+              width: 120px;
+              height: 218px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              margin-left: 130px; }
+              #main_box main #main_center #center_center ul li:nth-of-type(8) span {
+                cursor: pointer; }
+            #main_box main #main_center #center_center ul li .red {
+              color: red; }
+      #main_box main #main_center #center_bottom {
+        width: 100%;
+        height: 145px;
+        margin-top: 15px;
+        background: white;
+        display: flex;
+        align-items: center; }
+        #main_box main #main_center #center_bottom ul {
+          float: left;
+          height: 100%;
+          width: 520px;
+          display: flex;
+          justify-content: space-between; }
+          #main_box main #main_center #center_bottom ul li {
+            height: 145px;
+            line-height: 145px;
+            font-size: 20px; }
+            #main_box main #main_center #center_bottom ul li span {
+              cursor: pointer; }
+            #main_box main #main_center #center_bottom ul li:nth-of-type(1) {
+              margin-left: 10px; }
+        #main_box main #main_center #center_bottom #bottom_right {
+          width: 776px;
+          height: 90px;
+          margin-left: 100px;
+          float: left;
+          position: relative; }
+          #main_box main #main_center #center_bottom #bottom_right #count {
+            width: 270px;
+            height: 25px;
+            position: absolute;
+            top: 20px;
+            left: 110px; }
+          #main_box main #main_center #center_bottom #bottom_right #price {
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            position: absolute;
+            left: 320px;
+            top: 20px;
+            color: red; }
+          #main_box main #main_center #center_bottom #bottom_right #sum {
+            width: 352px;
+            height: 25px;
+            position: absolute;
+            bottom: 0px;
+            left: 250px;
+            color: grey; }
+          #main_box main #main_center #center_bottom #bottom_right #affirm {
+            width: 240px;
+            height: 55px;
+            background: red;
+            border-radius: 15px;
+            position: absolute;
+            left: 400px;
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            line-height: 55px; }
+
+footer {
+  width: 1920px;
+  height: 900px;
+  background: white;
+  float: left; }
+  footer #footerTop ul {
+    width: 1392px;
+    height: 124px;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray; }
+    footer #footerTop ul li {
+      float: left;
+      height: 100%;
+      font-size: 20px;
+      line-height: 124px; }
+  footer #footerCenter {
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray; }
+  footer #footerLeft {
+    width: 1136px;
+    height: 453px;
+    margin-top: 150px;
+    margin-left: 153px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-between; }
+    footer #footerLeft aside {
+      width: 130px;
+      float: left; }
+      footer #footerLeft aside ul {
+        list-style: none; }
+        footer #footerLeft aside ul li {
+          margin-top: 20px;
+          font-size: 20px;
+          cursor: pointer; }
+          footer #footerLeft aside ul li:hover {
+            color: blue; }
+        footer #footerLeft aside ul #asideTop {
+          font-size: 25px;
+          margin-bottom: 50px; }
+  footer #footerRight {
+    height: 400px;
+    width: 254px;
+    margin-right: 140px;
+    margin-top: -453px;
+    background: white;
+    float: right; }
+    footer #footerRight #rightTitle {
+      height: 24px;
+      width: 100%;
+      margin-top: 10px;
+      background: white; }
+      footer #footerRight #rightTitle img, footer #footerRight #rightTitle nav section #logo #before, nav section #logo footer #footerRight #rightTitle #before, footer #footerRight #rightTitle nav section #logo #later, nav section #logo footer #footerRight #rightTitle #later {
+        float: left; }
+      footer #footerRight #rightTitle span {
+        float: left;
+        font-size: 20px; }
+    footer #footerRight #rightCenter {
+      height: 72px;
+      width: 100%;
+      margin-top: 63px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      footer #footerRight #rightCenter .numberOne {
+        color: blue;
+        font-size: 20px; }
+      footer #footerRight #rightCenter .vender {
+        color: black;
+        font-size: 20px; }
+    footer #footerRight #rightBootem {
+      height: 72px;
+      width: 100%;
+      margin-top: 63px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      footer #footerRight #rightBootem .numberOne {
+        color: blue;
+        font-size: 20px; }
+      footer #footerRight #rightBootem .vender {
+        color: black;
+        font-size: 20px; }
+    footer #footerRight #rightTail {
+      height: 94px;
+      width: 280px;
+      margin-top: 45px; }
+      footer #footerRight #rightTail #attention {
+        font-size: 15px; }
+      footer #footerRight #rightTail #channel {
+        height: 48px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between; }
+        footer #footerRight #rightTail #channel aside {
+          height: 100%;
+          width: 48px;
+          background: #f0f1f5;
+          border-radius: 20px; }
+  footer #footerBootem {
+    width: 1920px;
+    height: 30px;
+    float: left; }
+    footer #footerBootem span {
+      font-size: 15px;
+      height: 30px;
+      line-height: 30px;
+      display: block;
+      margin-left: 150px; }

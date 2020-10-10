@@ -1,0 +1,294 @@
+[{
+    "firstCategory": {
+        "id": 8,
+        "name": "手机充电",
+        "link": "https://shop.vivo.com.cn/product/list-8",
+        "imgUrl": null,
+        "targetType": null,
+        "targetId": null
+    },
+    "subCategories": [{
+        "id": 358,
+        "name": "数据线",
+        "link": "https://shop.vivo.com.cn/product/list-358",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577197303327_312x100.jpg",
+        "targetType": 1,
+        "targetId": "358"
+    }, {
+        "id": 571,
+        "name": "充电器",
+        "link": "https://shop.vivo.com.cn/product/list-571",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577194944450_312x100.jpg",
+        "targetType": 1,
+        "targetId": "571"
+    }, {
+        "id": 572,
+        "name": "移动电源",
+        "link": "https://shop.vivo.com.cn/product/list-572",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577195986915_312x100.jpg",
+        "targetType": 1,
+        "targetId": "572"
+    }, {
+        "id": 573,
+        "name": "插座插线板",
+        "link": "https://shop.vivo.com.cn/product/list-573",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1577196086777_312x100.jpg",
+        "targetType": 1,
+        "targetId": "573"
+    }, {
+        "id": 587,
+        "name": "车载配件",
+        "link": "https://shop.vivo.com.cn/product/list-587",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/category/1601289212842_312x100.jpg",
+        "targetType": 1,
+        "targetId": "587"
+    }],
+    "promotionSpus": [],
+    "commoditySpus": [{
+        "spuId": 10005698,
+        "name": "vivo 5A Type-C数据线",
+        "link": "https://shop.vivo.com.cn/product/10005698?skuId=119096",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/98/10005698_1596790129387_250x250.png",
+        "brief": "兼容55W/44W/33W/22.5W/18W的vivo闪充协议",
+        "promotion": "",
+        "price": "47",
+        "marketPrice": "59",
+        "label": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+        "skuId": 119096,
+        "actDto": {
+            "actCode": "QG174c5b13c634978",
+            "actPrice": 47,
+            "actLabel": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+            "isAtmosphere": 0,
+            "actPromotionLabel": "9.26-10.3限时直降\n"
+        }
+    }, {
+        "spuId": 10005708,
+        "name": "iQOO 55W车载充电器",
+        "link": "https://shop.vivo.com.cn/product/10005708?skuId=118724",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/08/10005708_1597047585660_250x250.png",
+        "brief": "支持55/44/33/22.5/18W闪充，两个标准USB接口，同时输出总功率达65W，满足更多设备充电需求。（包装内附赠原装5A Type-C数据线，请搭配使用。）",
+        "promotion": "",
+        "price": "199",
+        "marketPrice": "199",
+        "label": null,
+        "skuId": 118724,
+        "actDto": null
+    }, {
+        "spuId": 10002425,
+        "name": "iQOO 2A Type-C手游数据线",
+        "link": "https://shop.vivo.com.cn/product/10002425?skuId=104131",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/25/10002425_1589856396097_250x250.png",
+        "brief": "官方品质｜手游专属设计｜支持快速充电｜1.2米防缠绕扁线（注：最大支持2A电流）",
+        "promotion": "",
+        "price": "59",
+        "marketPrice": "59",
+        "label": null,
+        "skuId": 104131,
+        "actDto": null
+    }, {
+        "spuId": 10001648,
+        "name": "vivo移动电源",
+        "link": "https://shop.vivo.com.cn/product/10001648?skuId=119105",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/48/10001648_1572080897506_250x250.jpg",
+        "brief": "双USB输出｜小电流充电模式｜13重安全保护（已标配Micro USB充电线）",
+        "promotion": "",
+        "price": "89",
+        "marketPrice": "99",
+        "label": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+        "skuId": 119105,
+        "actDto": {
+            "actCode": "QG174cad5e6a11011",
+            "actPrice": 89,
+            "actLabel": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+            "isAtmosphere": 1,
+            "actPromotionLabel": "直降10元"
+        }
+    }, {
+        "spuId": 10424,
+        "name": "vivo 22.5W闪充充电器",
+        "link": "https://shop.vivo.com.cn/product/10424?skuId=5156",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/24/10424_1590736666928_250x250.png",
+        "brief": "支持22.5W/18W双引擎闪充，闪充功能需搭配专用闪充数据线使用，本商品不含数据线（注：X27、iQOO、iQOO Neo、NEX、Z5等机型需使用Type-C接口数据线）",
+        "promotion": "",
+        "price": "79",
+        "marketPrice": "99",
+        "label": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+        "skuId": 5156,
+        "actDto": {
+            "actCode": "QG174c5b13c634978",
+            "actPrice": 79,
+            "actLabel": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+            "isAtmosphere": 0,
+            "actPromotionLabel": "9.26-10.3限时直降"
+        }
+    }, {
+        "spuId": 10000654,
+        "name": "vivo 2A Type-C数据线",
+        "link": "https://shop.vivo.com.cn/product/10000654?skuId=100844",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/54/10000654_1588754762550_250x250.png",
+        "brief": "支持18W双引擎闪充，注：X27 8G+256G版/X27精英版/X27Pro不支持此数据线，本商品不含充电器，充电口规格：Type-C。",
+        "promotion": "",
+        "price": "31",
+        "marketPrice": "39",
+        "label": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+        "skuId": 100844,
+        "actDto": {
+            "actCode": "QG174c5b13c634978",
+            "actPrice": 31,
+            "actLabel": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+            "isAtmosphere": 0,
+            "actPromotionLabel": "9.26-10.3限时直降"
+        }
+    }, {
+        "spuId": 10001303,
+        "name": "vivo 2A USB数据线",
+        "link": "https://shop.vivo.com.cn/product/10001303?skuId=101660",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/03/10001303_1588754676784_250x250.png",
+        "brief": "支持18W/10W双引擎闪充，充电口规格：Micro USB。（注：闪充功能需搭配9V/2A充电器使用，本商品不含充电器）",
+        "promotion": "",
+        "price": "15",
+        "marketPrice": "19",
+        "label": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+        "skuId": 101660,
+        "actDto": {
+            "actCode": "QG174c5b13c634978",
+            "actPrice": 15,
+            "actLabel": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+            "isAtmosphere": 0,
+            "actPromotionLabel": "9.26-10.3限时直降"
+        }
+    }, {
+        "spuId": 249,
+        "name": "vivo 18W闪充充电器",
+        "link": "https://shop.vivo.com.cn/product/249?skuId=4020",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/49/249_1590736538244_250x250.png",
+        "brief": "支持18W双引擎闪充，闪充功能需搭配专用闪充数据线使用，X、Xplay系列机型原装闪充充电头（本商品不含数据线）",
+        "promotion": "",
+        "price": "49",
+        "marketPrice": "79",
+        "label": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+        "skuId": 4020,
+        "actDto": {
+            "actCode": "QG174cad5e6a11011",
+            "actPrice": 49,
+            "actLabel": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+            "isAtmosphere": 1,
+            "actPromotionLabel": "直降30元"
+        }
+    }, {
+        "spuId": 10005891,
+        "name": "vivo 65W多口超快闪充充电器",
+        "link": "https://shop.vivo.com.cn/product/10005891?skuId=119268",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/91/10005891_1600397418478_250x250.png",
+        "brief": "兼容55/44/33/22.5/18W闪充，三口输出，可同时为三台设备充电。",
+        "promotion": "",
+        "price": "149",
+        "marketPrice": "149",
+        "label": null,
+        "skuId": 119268,
+        "actDto": null
+    }, {
+        "spuId": 10001130,
+        "name": "vivo 4A Type-C数据线",
+        "link": "https://shop.vivo.com.cn/product/10001130?skuId=119101",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/30/10001130_1589354013098_250x250.png",
+        "brief": "兼容44W/33W/22.5W/18W的vivo闪充协议",
+        "promotion": "",
+        "price": "47",
+        "marketPrice": "59",
+        "label": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+        "skuId": 119101,
+        "actDto": {
+            "actCode": "QG174c5b13c634978",
+            "actPrice": 47,
+            "actLabel": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+            "isAtmosphere": 0,
+            "actPromotionLabel": "9.26-10.3限时直降"
+        }
+    }, {
+        "spuId": 10001689,
+        "name": "vivo 3A Type-C数据线",
+        "link": "https://shop.vivo.com.cn/product/10001689?skuId=102371",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/89/10001689_1589854222464_250x250.png",
+        "brief": "充电口规格：Type-C，兼容33W/22.5W/18W的vivo闪充协议",
+        "promotion": "",
+        "price": "39",
+        "marketPrice": "49",
+        "label": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+        "skuId": 102371,
+        "actDto": {
+            "actCode": "QG174c5b13c634978",
+            "actPrice": 39,
+            "actLabel": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+            "isAtmosphere": 0,
+            "actPromotionLabel": "9.26-10.3限时直降"
+        }
+    }, {
+        "spuId": 10000538,
+        "name": "vivo 44W闪充充电器",
+        "link": "https://shop.vivo.com.cn/product/10000538?skuId=100683",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/38/10000538_1591686836909_250x250.png",
+        "brief": "支持44W/33W/22.5W/18W双引擎闪充，闪充功能需搭配专用闪充数据线使用，本商品不含数据线",
+        "promotion": "",
+        "price": "95",
+        "marketPrice": "119",
+        "label": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+        "skuId": 100683,
+        "actDto": {
+            "actCode": "QG174c5b13c634978",
+            "actPrice": 95,
+            "actLabel": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+            "isAtmosphere": 0,
+            "actPromotionLabel": "9.26-10.3限时直降"
+        }
+    }, {
+        "spuId": 10002114,
+        "name": "iQOO 5A Type-C胶囊数据线",
+        "link": "https://shop.vivo.com.cn/product/10002114?skuId=119098",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/14/10002114_1588754595504_250x250.png",
+        "brief": "L型接口设计，兼容55W/44W/33W/22.5W/18W的vivo闪充协议",
+        "promotion": "",
+        "price": "47",
+        "marketPrice": "59",
+        "label": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+        "skuId": 119098,
+        "actDto": {
+            "actCode": "QG174c5b13c634978",
+            "actPrice": 47,
+            "actLabel": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+            "isAtmosphere": 0,
+            "actPromotionLabel": "9.26-10.3限时直降"
+        }
+    }, {
+        "spuId": 10001456,
+        "name": "vivo 2.25A Type-C数据线",
+        "link": "https://shop.vivo.com.cn/product/10001456?skuId=101885",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/56/10001456_1589354097959_250x250.png",
+        "brief": "兼容22.5W/18W的vivo闪充协议。购买时请注意，此数据线只适配Type-C接口。",
+        "promotion": "",
+        "price": "39",
+        "marketPrice": "49",
+        "label": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+        "skuId": 101885,
+        "actDto": {
+            "actCode": "QG174c5b13c634978",
+            "actPrice": 39,
+            "actLabel": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+            "isAtmosphere": 0,
+            "actPromotionLabel": "9.26-10.3限时直降"
+        }
+    }, {
+        "spuId": 10005560,
+        "name": "公牛迷你两孔插座",
+        "link": "https://shop.vivo.com.cn/product/10005560?skuId=118332",
+        "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/60/10005560_1593509807558_250x250.png",
+        "brief": "小身材，好携带，一变四，真实用。全长1.8m。",
+        "promotion": "",
+        "price": "19.9",
+        "marketPrice": "19.9",
+        "label": null,
+        "skuId": 118332,
+        "actDto": null
+    }]
+}]

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/commodityDetails.css">
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="../js/commodityDetails.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+</head>
+<body>
+    <div id="sidebar">
+        <aside><a href="#">购物车</a></aside>
+        <aside>客服</aside>
+        <aside>帮助</aside>
+        <aside id="return">返回顶点</aside>
+    </div>
+    <div id="headerbox">
+        <header>
+            <ul id="left">
+                <li>品牌</li>
+                <li>Funtouch OS</li>
+                <li>体验店</li>
+                <li>企业服务</li>
+                <li>社区</li>
+            </ul>
+            <ul id="right">
+                <li>下载APP</li>
+                <aside id="code">
+                    <img src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/files/1589182489987/QRCode.png" alt="下载APP">
+                </aside>
+                <li>购物车</li>
+                <li>登录</li>
+                <li>|</li>
+                <li>注册</li>
+            </ul>
+        </header>
+    </div>
+    <nav>
+        <section>
+            <aside id="logo">
+                <img src="../imgs/logo_1.png" alt="" id="before">
+                <img src="../imgs/logo_2.png" alt="" id="later">
+            </aside>
+            <ul>
+                <li>NEX系列</li>
+                <li>X系列</li>
+                <li>S系列</li>
+                <li>Y系列</li>
+                <li>Z系列</li>
+                <li>U系列</li>
+                <li>IQOO手机</li>
+                <li>智能硬件</li>
+                <li>商城</li>
+                <li>服务</li>
+            </ul>
+            <aside id="seach">
+                <img src="../imgs/fangda1.png" alt="">
+                <img src="../imgs/fangda3.png" alt="" id="esc">
+            </aside>
+        </section>
+    </nav>
+    <div id="phones_box">
+        <div id="phones">
+            <!--后续加json数据-->
+            <aside>
+                <img src="../imgs/phone2.png" alt="">
+                <span>vivo XXXX</span>
+            </aside>
+            <aside>
+                <img src="../imgs/phone2.png" alt="">
+                <span>vivo XXXX</span>
+            </aside>
+            <aside>
+                <img src="../imgs/phone2.png" alt="">
+                <span>vivo XXXX</span>
+            </aside>
+            <aside>
+                <img src="../imgs/phone2.png" alt="">
+                <span>vivo XXXX</span>
+            </aside>
+            <aside>
+                <img src="../imgs/phone2.png" alt="">
+                <span>vivo XXXX</span>
+            </aside>
+            <aside id="contrast">
+                <section>全部机型</section><!--后续加json数据-->
+                <section>对比机型</section>
+            </aside>
+        </div>
+    </div>
+    <div id="main_box">
+        <main>
+            <section id="main_left">
+                <aside id="leftTop">
+                    <img src="https://shopstatic.vivo.com.cn/vivoshop/corner/20180824/1808245378553371_250x250.png" alt="">
+                    <aside id="mask"></aside>
+                </aside>
+                <ul id="leftBottom">
+                    <!-- <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li> -->
+                </ul>
+            </section>
+            <aside id="main_center">
+                <img src="https://shopstatic.vivo.com.cn/vivoshop/corner/20180824/1808245378553371_250x250.png" alt="">
+            </aside>
+            <section id="main_right">
+                <aside id="right_one">
+                    <h1>vivo S7 5G版 8GB+128GB 莫奈漫彩</h1>
+                    <p><span class="red">【①10月1日-8日享24期免息；②vivo老用户咨询客服加赠网易耳机；③高等级会员加赠移动电源，不与老用户加赠叠加】</span>  约7.39mm超薄外观|约170g|前置4400万AF广角双摄|后置6400万超感光影像系统</p>
+                </aside>
+               <aside id="right_two">
+                    <h2 id="price">￥2798.00</h2>
+                    <aside id="integral">积分</aside>
+                    <span id="conditions">购买即送2798积分</span>
+               </aside>
+               <aside id="right_three">
+                   <ul>
+                       <li>商品支持：</li>
+                       <li><span class="iconfont">&#xe770;</span>花呗分期</li>
+                       <li><span class="iconfont">&#xe770;</span>以旧换新</li>
+                   </ul>
+               </aside>
+               <aside id="right_four">
+                   <aside id="versions">
+                       <h5>版本</h5>
+                       <label><input type="radio" name="versions" value="1"><span>全网通用 8+128GB</span></label>
+                       <label><input type="radio" name="versions" value="2"><span>全网通用 8+128GB</span></label>
+                   </aside>
+                   <aside id="colors">
+                       <h5>颜色</h5>
+                       <label><input type="radio" name="colors" id="colour" value="3"><span>漫彩</span></label>
+                       <label><input type="radio" name="colors" id="white" value="4"><span>月光白</span></label>
+                       <label><input type="radio" name="colors" id="black" value="5"><span>爵士黑</span></label>
+                   </aside>
+                   <aside id="setMeal">
+                       <h5>套餐</h5>
+                       <label><input type="radio" name="setMeal" id="offical" value="6"><span>官方套餐</span></label>
+                       <label><input type="radio" name="setMeal" id="Neo" value="7"><span>NEO套餐</span></label>
+                       <label><input type="radio" name="setMeal" id="selfie" value="8"><span>自拍杆套餐</span></label>
+                       <label><input type="radio" name="setMeal" id="protect" value="9"><span>保护套餐</span></label>
+                       <label><input type="radio" name="setMeal" id="watch" value="10"><span>watch套餐</span></label>
+                   </aside>
+                   <aside id="serve">
+                       <h5>手机服务</h5>
+                       <label><input type="radio" name="serve" id="screen" value="11"><span>屏幕保护</span></label>
+                       <label><input type="radio" name="serve" id="halfYear" value="12"><span>半年保险</span></label>
+                       <label><input type="radio" name="serve" id="Year" value="13"><span>一年保险</span></label>
+                       <label><input type="radio" name="serve" id="cover" value="14"><span>后盖保护</span></label>
+                       <input type="checkbox" name="clause" id="clause">我阅读并同意<a href="#">《vivo服务条款》</a>
+                    </aside>
+                   <aside id="amount">
+                       <h5>数量</h5>
+                        <aside id="choice">
+                            <button id="subtract">-</button>
+                            <aside id="show"></aside>
+                            <button id="add">+</button>
+                        </aside>
+                        <span>(仅限5台)</span>
+                   </aside>
+                   <aside id="payment">
+                        <h5>支持分期付款</h5>
+                        <label><input type="radio" name="payment" id="three"><span>￥932.66 X 3期 免息</span></label>
+                        <label><input type="radio" name="payment" id="six"><span>￥466.33 X 6期 免息</span></label>
+                        <label><input type="radio" name="payment" id="twelve"><span>￥233.16 X 12期 免息</span></label>
+                        <label><input type="radio" name="payment" id="twentyFour"><span>￥116.58 X 24期 免息</span></label>
+                   </aside>
+                   <aside id="ultimately">
+                        <p>
+                            <span class="red">￥2798</span>
+                            <span id="ult_right">已选： 全网通版 8GB+128GB 爵士黑 官方标配 一年碎屏宝-179元 限时优惠 1件</span>
+                        </p>
+                   </aside>
+                   <aside id="end">
+                        <aside id="end_center">
+                            <aside id="into">加入购物车</aside>
+                            <aside id="buy">立即购买</aside>
+                        </aside>
+                   </aside>
+               </aside>
+            </section>
+        </main>
+    </div>
+    <div id="center_box">
+        <div id="center">
+            <aside id="center_top">
+                <ul>
+                    <li>配件推荐</li>
+                    <li>同类推荐</li>
+                </ul>
+            </aside>
+            <aside id='center_bottom'>
+                <aside id="bottom_left">&lt;</aside>
+                <aside id="bottom_center">
+                    <aside class="center_things">
+                        <img src="../imgs/pho1.png" alt="">
+                        <h3>vivo 原装保护</h3>
+                        <span>￥39</span>
+                    </aside>
+                    <aside class="center_things">
+                        <img src="../imgs/pho1.png" alt="">
+                        <h3>vivo 原装保护</h3>
+                        <span>￥39</span>
+                    </aside>
+                    <aside class="center_things">
+                        <img src="../imgs/pho1.png" alt="">
+                        <h3>vivo 原装保护</h3>
+                        <span>￥39</span>
+                    </aside>
+                    <aside class="center_things">
+                        <img src="../imgs/pho1.png" alt="">
+                        <h3>vivo 原装保护</h3>
+                        <span>￥39</span>
+                    </aside>
+                </aside>
+                <aside id="bottom_right">&gt;</aside>
+            </aside>
+        </div>
+    </div>
+    <div id="bottom_box">
+        <div id="bottom_ul">
+            <ul>
+                <li>详细信息</li>
+                <li>包装参数</li>
+                <li>评价</li>
+                <li>评测</li>
+                <li>售后服务</li>  
+            </ul>
+            <aside id="message">
+                <img src="../imgs/pho1.png" alt="">
+                <aside id="message_center">
+                    <aside id="message_top">
+                        <span>vivo 原装保护</span>
+                        <span id="message_price">￥33</span>
+                    </aside>
+                    <aside id="message_bottom">
+                        <span>已选： 全网通版 8GB+128GB 爵士黑 官方标配 一年碎屏宝-179元 限时优惠 1件</span>
+                    </aside>
+                </aside>
+                <aside id="message_end">
+                    <aside id='sure'>确认加入购物车</aside>
+                </aside>
+            </aside>
+        </div>
+        <div id="bottom_img">
+            <p><img src="https://shopstatic.vivo.com.cn/vivoshop/commodity/20200803/20200803175522824174_original.jpg.webp" alt=""></p>
+            <p><img src="https://shopstatic.vivo.com.cn/vivoshop/commodity/20200803/2020080319144483683_original.jpg.webp" alt=""></p>
+        </div>
+    </div> 
+</body>
+</html>

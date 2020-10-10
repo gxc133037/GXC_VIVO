@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href='../css/productList.css'>
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="../js/productList.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+</head>
+<body>
+    <div id="sidebar">
+        <aside><a href="#">购物车</a></aside>
+        <aside>客服</aside>
+        <aside>帮助</aside>
+        <aside id="return">返回顶点</aside>
+    </div>
+    <div id="headerbox">
+        <header>
+            <ul id="left">
+                <li>品牌</li>
+                <li>Funtouch OS</li>
+                <li>体验店</li>
+                <li>企业服务</li>
+                <li>社区</li>
+            </ul>
+            <ul id="right">
+                <li>下载APP</li>
+                <aside id="code">
+                    <img src="https://wwwstatic.vivo.com.cn/vivoportal/files/resource/files/1589182489987/QRCode.png" alt="下载APP">
+                </aside>
+                <li>购物车</li>
+                <li>登录</li>
+                <li>|</li>
+                <li>注册</li>
+            </ul>
+        </header>
+    </div>
+    <nav>
+        <section>
+            <aside id="logo">
+                <img src="../imgs/logo_1.png" alt="" id="before">
+                <img src="../imgs/logo_2.png" alt="" id="later">
+            </aside>
+            <ul>
+                <li>NEX系列</li>
+                <li>X系列</li>
+                <li>S系列</li>
+                <li>Y系列</li>
+                <li>Z系列</li>
+                <li>U系列</li>
+                <li>IQOO手机</li>
+                <li>智能硬件</li>
+                <li>商城</li>
+                <li>服务</li>
+            </ul>
+            <aside id="seach">
+                <img src="../imgs/fangda1.png" alt="">
+                <img src="../imgs/fangda3.png" alt="" id="esc">
+            </aside>
+        </section>
+    </nav>
+    <div id="phones_box">
+        <div id="phones">
+            <!--后续加json数据-->
+            <!-- <aside>
+                <img src="../imgs/phone2.png" alt="">
+                <span>vivo XXXX</span>
+            </aside>
+            <aside>
+                <img src="../imgs/phone2.png" alt="">
+                <span>vivo XXXX</span>
+            </aside>
+            <aside>
+                <img src="../imgs/phone2.png" alt="">
+                <span>vivo XXXX</span>
+            </aside>
+            <aside>
+                <img src="../imgs/phone2.png" alt="">
+                <span>vivo XXXX</span>
+            </aside>
+            <aside>
+                <img src="../imgs/phone2.png" alt="">
+                <span>vivo XXXX</span>
+            </aside> -->
+            <aside id="contrast">
+                <section>全部机型</section><!--后续加json数据-->
+                <section>对比机型</section>
+            </aside>
+        </div>
+    </div>
+    <div id="Headlist_box">
+        <div id="Headlist">
+            <aside id="Headlist_top">
+                <ul>
+                    <li><span>智能手机</span></li>
+                    <li><span>配件产品</span></li>
+                    <li><span>服务</span></li>
+                </ul>
+            </aside>
+            <aside id="Headlist_bottom">
+                <ul>
+                    <li>one</li>
+                    <li>two</li>
+                    <li>three</li>
+                    <li>three</li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+    <div id="main_box">
+        <main>
+            <!-- <aside>
+                <img src="" alt="">
+                <img src="" alt="">
+                <h3></h3>
+                <span class="detail"></span>
+                <span class="import"></span>
+            </aside> -->
+        </main>
+    </div>
+    <footer>
+        <div id="footerTop">
+            <ul>
+                <li>官方正品</li>
+                <li>顺丰极速达</li>
+                <li>全国联保</li>
+                <li>镭雕定制</li>
+            </ul>
+        </div>
+        <div id="footerCenter">
+            <div id="footerLeft">
+                <aside>
+                    <ul>
+                        <li id="asideTop">热门链接</li>
+                        <li>X50 Pro</li>
+                        <li>NEX 3s</li>
+                        <li>Z6</li>
+                        <li>vivo摄影</li>
+                        <li>发现手机</li>
+                        <li>更多问题</li>
+                    </ul>
+                </aside>
+                <aside>
+                    <ul>
+                        <li id="asideTop">在线购买</li>
+                        <li>官方商城</li>
+                        <li>选购手机</li>
+                        <li>选购配件</li>
+                        <li>企业服务</li>
+                        <li>以旧换新</li>
+                        <li>保障服务</li>
+                    </ul>
+                </aside>
+                <aside>
+                    <ul>
+                        <li id="asideTop">服务支持</li>
+                        <li>体验店</li>
+                        <li>服务首页</li>
+                        <li>服务网点查询</li>
+                        <li>真伪查询</li>
+                        <li>预约维修</li>
+                        <li>维修配件价格</li>
+                        <li>服务政策</li>
+                        <li>安全公告</li>
+                    </ul>
+                </aside>
+                <aside>
+                    <ul>
+                        <li id="asideTop">vivo社区</li>
+                        <li>社区首页</li>
+                        <li>摄影专区</li>
+                        <li>微博</li>
+                        <li>贴吧</li>
+                        <li>兴趣部落</li>
+                    </ul>
+                </aside>
+                <aside>
+                    <ul>
+                        <li id="asideTop">关于vivo</li>
+                        <li>vivo简介</li>
+                        <li>工作机会</li>
+                        <li>新闻资讯</li>
+                        <li>采购平台</li>
+                        <li>供应商协调平台</li>
+                        <li>开放平台</li>
+                        <li>廉正合约</li>
+                    </ul>
+                </aside>
+            </div>
+            <div id="footerRight">
+                <div id="rightTitle">
+                    <img src="imgs/call_b.png" alt="">
+                    <span>在线客服</span>
+                </div>
+                <div id="rightCenter">
+                    <span class="numberOne">400-678-9688</span>
+                    <span class="vender">全国客户服务专线7*24小时</span>
+                </div>
+                <div id="rightBootem">
+                    <span class="numberOne">400-679-9688</span>
+                    <span class="vender">NEX全国客户服务专线7*24小时</span>
+                </div>
+                <div id="rightTail">
+                    <span id="attention">关注vivo</span>
+                    <div id="channel">
+                        <aside></aside>                    
+                        <aside></aside>
+                        <aside></aside>
+                        <aside></aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footerBootem">
+            <span>©2011-2020 广东天宸网络科技有限公司 版权所有| 隐私权政策| 法律声明| 营业执照|粤B2-20080267 | 粤ICP备14052990号| 粤公网安备44190002004246号</span>
+        </div>
+    </footer>
+</body>
+</html>

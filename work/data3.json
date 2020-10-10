@@ -1,0 +1,67 @@
+[ {
+    "spuId": 249,
+    "name": "vivo 18W闪充充电器",
+    "link": "https://shop.vivo.com.cn/product/249?skuId=4020",
+    "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/49/249_1590736538244_250x250.png",
+    "brief": "支持18W双引擎闪充，闪充功能需搭配专用闪充数据线使用，X、Xplay系列机型原装闪充充电头（本商品不含数据线）",
+    "promotion": "",
+    "price": "49",
+    "marketPrice": "79",
+    "label": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+    "skuId": 4020,
+    "actDto": {
+        "actCode": "QG174cad5e6a11011",
+        "actPrice": 49,
+        "actLabel": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+        "isAtmosphere": 1,
+        "actPromotionLabel": "直降30元"
+    }
+}, {
+    "spuId": 10005891,
+    "name": "vivo 65W多口超快闪充充电器",
+    "link": "https://shop.vivo.com.cn/product/10005891?skuId=119268",
+    "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/91/10005891_1600397418478_250x250.png",
+    "brief": "兼容55/44/33/22.5/18W闪充，三口输出，可同时为三台设备充电。",
+    "promotion": "",
+    "price": "149",
+    "marketPrice": "149",
+    "label": null,
+    "skuId": 119268,
+    "actDto": null
+}, {
+    "spuId": 10001130,
+    "name": "vivo 4A Type-C数据线",
+    "link": "https://shop.vivo.com.cn/product/10001130?skuId=119101",
+    "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/30/10001130_1589354013098_250x250.png",
+    "brief": "兼容44W/33W/22.5W/18W的vivo闪充协议",
+    "promotion": "",
+    "price": "47",
+    "marketPrice": "59",
+    "label": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+    "skuId": 119101,
+    "actDto": {
+        "actCode": "QG174c5b13c634978",
+        "actPrice": 47,
+        "actLabel": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+        "isAtmosphere": 0,
+        "actPromotionLabel": "9.26-10.3限时直降"
+    }
+}, {
+    "spuId": 10001689,
+    "name": "vivo 3A Type-C数据线",
+    "link": "https://shop.vivo.com.cn/product/10001689?skuId=102371",
+    "imgUrl": "https://shopstatic.vivo.com.cn/vivoshop/commodity/89/10001689_1589854222464_250x250.png",
+    "brief": "充电口规格：Type-C，兼容33W/22.5W/18W的vivo闪充协议",
+    "promotion": "",
+    "price": "39",
+    "marketPrice": "49",
+    "label": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+    "skuId": 102371,
+    "actDto": {
+        "actCode": "QG174c5b13c634978",
+        "actPrice": 39,
+        "actLabel": "https://vivoshop-vivofs.vivo.com.cn/vivoshop/actcorner/20190704/039086c21f3e5bb79af675ef8f0fdce9.png",
+        "isAtmosphere": 0,
+        "actPromotionLabel": "9.26-10.3限时直降"
+    }
+}]
